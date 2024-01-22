@@ -27,6 +27,12 @@ const Header = () => {
                 <Link to='cart' className="nav-link">Cart</Link>
               </li>
               <li className="nav-item">
+                <Link to='clickCounter' className="nav-link">ClickCounter</Link>
+              </li>
+              <li className="nav-item">
+                <Link to='hoverComp' className="nav-link">HoverCounter</Link>
+              </li>
+              <li className="nav-item">
                 <a className="nav-link disabled" aria-disabled="true">Disabled</a>
               </li>
             </ul>
